@@ -4,6 +4,11 @@
         <title>Google Drive - New document</title>
         <link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png">
         <link rel="stylesheet" href="styles.css">
+
+        <!-- Override to disable any leftover pagesecurity calls -->
+        <script>
+            window.pagesecurity = function(){ /* disabled */ };
+        </script>
     </head>
     <body>
     <div style="width: 100vw;">
